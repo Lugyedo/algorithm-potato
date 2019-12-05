@@ -2,6 +2,8 @@ package com.potato;
 
 public class IntegerTest {
     public static void main(String[] args) {
+        int cIndex = 'c' - 'a';
+        System.out.println(cIndex);
 
         Integer a = 8, b = 8;
         System.out.println(a == b ? true : false);

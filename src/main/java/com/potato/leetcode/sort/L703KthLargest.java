@@ -45,7 +45,7 @@ public class L703KthLargest {
         int n = data.size();
         while (true) {
             int maxPos = i;
-            if(i < n){
+            if (i < n) {
 
             }
         }
