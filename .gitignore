@@ -1,3 +1,5 @@
+# git rm --cached --force -r .idea
 .idea/
+# git rm --cached --force algorithm.iml
 *.iml
 target/

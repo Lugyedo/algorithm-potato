@@ -1,4 +1,4 @@
-package com.potato;
+package com.potato.concurrent;
 
 /**
  * Volatile demo
@@ -13,7 +13,7 @@ public class VolatileDemo {
         VolatileThread volatileThread = new VolatileThread();
         volatileThread.start();
 
-        //TimeUnit.MILLISECONDS.sleep(3);
+        // TimeUnit.MILLISECONDS.sleep(3);
         volatileThread.setFlag(false);
         System.out.println("主线程结束。");
     }
