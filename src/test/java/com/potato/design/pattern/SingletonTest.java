@@ -4,8 +4,9 @@ import com.potato.design.pattern.singleton.DoubleCheckedSingleton;
 import com.potato.design.pattern.singleton.EagerSingleton;
 import com.potato.design.pattern.singleton.LazySingleton;
 import com.potato.design.pattern.singleton.StaticNestedSingleton;
-import org.junit.Assert;
 import org.junit.Test;
+
+import static org.junit.Assert.assertNotNull;
 
 public class SingletonTest {
     @Test
@@ -14,6 +15,6 @@ public class SingletonTest {
         LazySingleton.getInstance();
         DoubleCheckedSingleton.getInstance();
         StaticNestedSingleton instance = StaticNestedSingleton.getInstance();
-        Assert.assertNotNull(instance);
+        assertNotNull(instance);
     }
 }
