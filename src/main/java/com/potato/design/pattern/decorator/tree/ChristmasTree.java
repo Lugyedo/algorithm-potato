@@ -1,4 +1,4 @@
-package com.potato.design.pattern.decorator;
+package com.potato.design.pattern.decorator.tree;
 
 /**
  * @author dehuab
